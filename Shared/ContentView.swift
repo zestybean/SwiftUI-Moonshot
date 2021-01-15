@@ -7,11 +7,22 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        Button("Decode JSON") {
+            let input = """
+            {
+                "name": "Taylor Swift",
+                "address": {
+                    "street": "555, Taylor Swift Avenue",
+                    "city": "Nashville"
+                }
+            }
+            """
+
+            // more code to come
+        }    }
 }
 
 struct ContentView_Previews: PreviewProvider {
