@@ -7,22 +7,12 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
+    let astronauts = Bundle.main.decode("astronauts.json")
+    
     var body: some View {
-        Button("Decode JSON") {
-            let input = """
-            {
-                "name": "Taylor Swift",
-                "address": {
-                    "street": "555, Taylor Swift Avenue",
-                    "city": "Nashville"
-                }
-            }
-            """
-
-            // more code to come
-        }    }
+        Text("\(astronauts.count)")
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
