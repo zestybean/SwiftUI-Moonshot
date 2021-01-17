@@ -15,7 +15,7 @@ struct ContentView: View {
 
             NavigationView{
                 List(missions) { mission in
-                    NavigationLink(destination: Text("Detail View")) {
+                    NavigationLink(destination: MissionView(mission: mission, astronauts: self.astronauts)) {
                         Image(mission.image)
                             .resizable()
                             .scaledToFit()
@@ -28,6 +28,7 @@ struct ContentView: View {
                     }
                     
                 }
+                .listStyle(InsetGroupedListStyle())
                 .navigationBarItems(leading: Text("NASA"))
                 .navigationBarTitle(Text("Mission Control"), displayMode:.large)
             } 
