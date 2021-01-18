@@ -25,6 +25,8 @@
 		2C80C50225B1F60900803A6B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80C50025B1F60900803A6B /* Bundle-Decodable.swift */; };
 		2CC12F5425B486FE00D1B428 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12F5325B486FE00D1B428 /* MissionView.swift */; };
 		2CC12F5525B486FE00D1B428 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12F5325B486FE00D1B428 /* MissionView.swift */; };
+		2CC12F5B25B4C6A200D1B428 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12F5A25B4C6A200D1B428 /* AstronautView.swift */; };
+		2CC12F5C25B4C6A200D1B428 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12F5A25B4C6A200D1B428 /* AstronautView.swift */; };
 		2CC5AA8F25B203B100EBAC17 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5AA8E25B203B100EBAC17 /* Mission.swift */; };
 		2CC5AA9025B203B100EBAC17 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5AA8E25B203B100EBAC17 /* Mission.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +68,7 @@
 		2C80C4F925B1F5B300803A6B /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		2C80C50025B1F60900803A6B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		2CC12F5325B486FE00D1B428 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		2CC12F5A25B4C6A200D1B428 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		2CC5AA8E25B203B100EBAC17 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +123,7 @@
 				2C80C4F025B1F4FC00803A6B /* missions.json */,
 				2C418C6125AFD5AE00DAE5DB /* MoonshotApp.swift */,
 				2C418C6225AFD5AE00DAE5DB /* ContentView.swift */,
+				2CC12F5A25B4C6A200D1B428 /* AstronautView.swift */,
 				2CC12F5325B486FE00D1B428 /* MissionView.swift */,
 				2C80C4F925B1F5B300803A6B /* Astronaut.swift */,
 				2CC5AA8E25B203B100EBAC17 /* Mission.swift */,
@@ -336,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC12F5B25B4C6A200D1B428 /* AstronautView.swift in Sources */,
 				2CC5AA8F25B203B100EBAC17 /* Mission.swift in Sources */,
 				2C80C4FA25B1F5B300803A6B /* Astronaut.swift in Sources */,
 				2C418C8C25AFD5AF00DAE5DB /* ContentView.swift in Sources */,
@@ -349,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC12F5C25B4C6A200D1B428 /* AstronautView.swift in Sources */,
 				2CC5AA9025B203B100EBAC17 /* Mission.swift in Sources */,
 				2C80C4FB25B1F5B300803A6B /* Astronaut.swift in Sources */,
 				2C418C8D25AFD5AF00DAE5DB /* ContentView.swift in Sources */,
